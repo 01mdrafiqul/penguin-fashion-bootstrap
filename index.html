@@ -4,9 +4,230 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/49429d3921.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Penguin-fashion-bootstrap</title>
+    <style>
+      .color1{
+        color: #FABE4C;
+      }
+      .color2{
+        color: #363958;
+      }
+      .font{
+        font-family: 'Bebas Neue';
+      }
+      .bton{
+        background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+        border: none;
+      }
+      .bg-img{
+        background-color: #F1F1F1;
+        padding: 25px 50px;
+      }
+    </style>
 </head>
 <body>
-    
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-expand-md my-5">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="291px;"  alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link text-dark fw-semibold" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-dark fw-semibold" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-dark fw-semibold"href="#About">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-dark fw-semibold" href="#Contactus">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="container row flex-lg-row flex-md-row flex-column-reverse my-5  align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+              <h1 class="fw-bold font"><span class="color1">BE THE PENGUINS</span><br><span class="color2">OF WINTER</span></h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quos vel dolor, assumenda deserunt vero.</p>
+              <button type="button" class="btn rounded-3 px-4 py-2 ms-3 text-white bton"><span class="pe-2"><i class="fa-solid fa-cart-shopping"></i></span>BUY NOW</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mb-lg-0 mb-md-0 mb-5 text-end">
+              <img src="images/model.png" class="img-fluid" alt="model">
+            </div>
+          </div>
+        </div>
+      </section>
+      <Section>
+        <div class="container my-5">
+          <h2 class="fw-bold color2 font pb-4">WOMAN JACKET</h2>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card h-100 shadow-sm rounded-4 border-0 p-3">
+                <img src="images/jacket-1.png" class="img-fluid bg-img rounded-4" alt="jacket-1">
+                <div class="card-body ps-0">
+                  <h5 class="card-title color2 fw-bold">Yellow Coat Jacket</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex align-items-center justify-content-between">
+                      <h2 class="color1">$234</h2>
+                      <button type="button" class="btn rounded-3 px-4 py-2 text-white bton"><span class="pe-2"><i class="fa-solid fa-cart-shopping"></i></span>BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card h-100 shadow-sm rounded-4 border-0 p-3">
+                <img src="images/jacket-2.png" class="img-fluid bg-img rounded-4" alt="jacket-2">
+                <div class="card-body ps-0">
+                  <h5 class="card-title color2 fw-bold">Ladies Jacket</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="color1">$244</h2>
+                    <button type="button" class="btn rounded-3 px-4 py-2 text-white bton"><span class="pe-2"><i class="fa-solid fa-cart-shopping"></i></span>BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card h-100 shadow-sm rounded-4 border-0 p-3">
+                <img src="images/jacket-3.png" class="img-fluid bg-img rounded-4" alt="jacket-3">
+                <div class="card-body ps-0">
+                  <h5 class="card-title color2 fw-bold">Woman Leather Jacket</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="color1">$265</h2>
+                    <button type="button" class="btn rounded-3 px-4 py-2 text-white bton"><span class="pe-2"><i class="fa-solid fa-cart-shopping"></i></span>BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </Section> 
+      <Section>
+        <div class="container my-5">
+          <h2 class="fw-bold color2 font pb-4">MAN JACKET</h2>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card h-100 shadow-sm rounded-4 border-0 p-3">
+                <img src="images/jacket-4.png" class="img-fluid bg-img rounded-4" alt="jacket-4">
+                <div class="card-body ps-0">
+                  <h5 class="card-title color2 fw-bold">Snowboard Jacket Mens</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the 
+                    printing and typesetting industry.</p>
+                  <div class="d-flex align-items-center justify-content-between">
+                      <h2 class="color1">$134</h2>
+                      <button type="button" class="btn rounded-3 px-4 py-2 text-white bton"><span class="pe-2"><i class="fa-solid fa-cart-shopping"></i></span>BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card h-100 shadow-sm rounded-4 border-0 p-3">
+                <img src="images/jacket-5.png" class="img-fluid bg-img rounded-4" alt="jacket-5">
+                <div class="card-body ps-0">
+                  <h5 class="card-title color2 fw-bold">Man Leather Jackets</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="color1">$280</h2>
+                    <button type="button" class="btn rounded-3 px-4 py-2 text-white bton"><span class="pe-2"><i class="fa-solid fa-cart-shopping"></i></span>BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card h-100 shadow-sm rounded-4 border-0 p-3">
+                <img src="images/jacket-6.png" class="img-fluid bg-img rounded-4" alt="jacket-6">
+                <div class="card-body ps-0">
+                  <h5 class="card-title color2 fw-bold">Man Casual Jackets</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="color1">$299</h2>
+                    <button type="button" class="btn rounded-3 px-4 py-2 text-white bton"><span class="pe-2"><i class="fa-solid fa-cart-shopping"></i></span>BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </Section>
+      <section>
+        <div class="container mt-5">
+          <div class="row flex-lg-row flex-md-row flex-column-reverse g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="row">
+                <div class="col-12 mb-4">
+                  <div class="card shadow-sm border-0 rounded-4">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-4 text-center">
+                        <img src="images/house.png" alt="house" class="w-50">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body">
+                          <h5 class="card-title fs-3  fw-bold color2">Find the Perfect Fit</h5>
+                          <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 mb-4">
+                  <div class="card shadow-sm border-0 rounded-4">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-4 text-center">
+                        <img src="images/box.png" alt="box" class="w-50">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body">
+                          <h5 class="card-title fs-3  fw-bold color2">Free Exchanges</h5>
+                          <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 mb-4">
+                  <div class="card shadow-sm border-0 rounded-4">
+                    <div class="row g-0 align-items-center">
+                      <div class="col-4 text-center">
+                        <img src="images/house.png" alt="house" class="w-50">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body">
+                          <h5 class="card-title fs-3  fw-bold color2">Contact Our Seller</h5>
+                          <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <img src="images/shopping.png" alt="shopping" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section> 
+    </main>
+
+    <Script src="bootstrap/js/bootstrap.bundle.min.js"></Script>
 </body>
 </html>
